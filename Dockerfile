@@ -8,6 +8,7 @@ MAINTAINER Wuyuxu "imwalson@163.com"
 ENV HTTP_PORT 8000
 
 VOLUME ["/app"]
+WORKDIR /app
 
 RUN npm --registry=https://registry.npm.taobao.org --disturl=https://npm.taobao.org/dist install
 

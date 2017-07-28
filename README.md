@@ -16,7 +16,7 @@ The image will use `/app` folder as the place for the source code and the workin
 
 #### notice
 
-As the image use `npm start` command as the start command, you `package.json` should contain `start` script,like this:
+As the image use `npm start` command as the start command, your `package.json` should contain `start` script,like this:
 
     "scripts": {
         "start": "node index.js"
